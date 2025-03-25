@@ -23,6 +23,6 @@ jobs:
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Execute Tests
-      run: mvn clean -Dsuite=suite -x
+      run: mvn clean -Dsuite=suite -X
 
    
